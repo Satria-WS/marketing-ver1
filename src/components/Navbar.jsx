@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <>
       <motion.div
+        // sliding bottom
         variants={{
           initial: {
             y: -100,
