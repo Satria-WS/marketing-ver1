@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import logoPlant from "../assets/image/2.png";
 
 const Service = () => {
-  const cardLoop = Array.from({ length: 4 }, (_, k) => k);
+  const cardLoop = Array.from({ length: 3 }, (_, k) => k);
 
   return (
     <>
@@ -14,12 +14,22 @@ const Service = () => {
         {/* card */}
         <div className="grid grid-cols-1 grid-rows-1 gap-1 ">
           {/* image */}
-          <div className="flex justify-center items-center p-5 bg-red-500 ">
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="flex justify-center items-center p-5 bg-red-500 "
+          >
             <img className="w-full max-w-[300px]" src={logoPlant} alt="plant" />
-          </div>
+          </motion.div>
           {/* card-content */}
           {cardLoop.map((item, index) => (
-            <div className="p-5 space-y-5">
+            <motion.div
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 + 0.2 * index}}
+              className="p-5 space-y-5"
+            >
               <img
                 className="w-full max-w-14"
                 src={logoPlant}
@@ -32,7 +42,7 @@ const Service = () => {
                 asperiores magnam? Assumenda perferendis optio dicta natus
                 nobis, cupiditate eveniet libero ratione quam iusto!
               </p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
