@@ -7,7 +7,7 @@ import Service from "./components/Service";
 
 function App() {
   return (
-    <div className="p-5">
+    <div className="p-5 overflow-x-hidden">
       <main>
         <Navbar />
         <Hero />
