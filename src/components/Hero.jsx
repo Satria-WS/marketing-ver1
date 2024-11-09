@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className="container flex flex-col md:flex-row border border-orange-300">
         {/* Text */}
-        <div className="flex flex-col items-center justify-center basis-1/2 space-y-5 text-center min-h-[300px]  py-20 px-10 ">
+        <div className="flex flex-col items-center md:items-start justify-center basis-1/2 space-y-5 text-center md:text-left min-h-[300px] md:min-h-[600px]  py-20 px-10 ">
           <motion.h1
             // sliding Up
             variants={{
@@ -28,7 +28,7 @@ const Hero = () => {
             className="text-4xl font-bold"
           >
             Unlock a Passion, Side Hustle, or New
-            <span className="text-gray-400 underline">Profession</span>
+            <span className="text-gray-400 underline block 2xl:inline-block p-2 "> Profession</span>
           </motion.h1>
           <motion.p
             variants={{
@@ -77,7 +77,7 @@ const Hero = () => {
         </div>
         {/* Picture */}
         <div className=" basis-1/2 flex justify-center items-center ">
-          <img className="w-full max-w-[550px] " src={logo} alt="" />
+          <img className="w-full max-w-[450px] xl:max-w-[700px]" src={logo} alt="" />
         </div>
       </div>
     </>
