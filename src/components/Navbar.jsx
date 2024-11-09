@@ -24,11 +24,11 @@ const Navbar = () => {
         className="container flex justify-between items-center  border border-orange-300"
       >
         <div className="flex items-center">
-          <img className="max-w-[70px]" src={logo} alt="mother" />
+          <img className=" w-full max-w-[70px] " src={logo} alt="mother" />
           <h4 className="text-xl font-bold">HUSTLE</h4>
         </div>
         <div className="justify-center items-center hidden md:block ">
-          <ul className="flex space-x-3">
+          <ul className="flex space-x-3 xl:space-x-10">
             <li>Home</li>
             <li>Features</li>
             <li>Shop</li>
