@@ -4,8 +4,8 @@ import cage from "../assets/image/3.png";
 const Banner = () => {
   return (
     <>
-      <div className="container flex flex-col md:flex-row min-h-[700px] ">
-        <div className=" flex flex-col items-center justify-center md:items-start xl:max-w-[600px]   py-20 space-y-10 ">
+      <div className="container flex flex-col md:flex-row min-h-[700px]">
+        <div className="flex flex-col items-center justify-center md:items-start xl:max-w-[600px] py-20 space-y-10">
           <motion.h1
             variants={{
               initial: {
