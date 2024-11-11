@@ -21,8 +21,8 @@ const Card = () => {
 
   return (
     <>
-      <div className="border border-purple-300 p-1 bg-gray-50">
-        <div className="container flex flex-col md:flex-row  border py-14 border-purple-300 gap-10 ">
+      <div className=" p-1 bg-gray-50">
+        <div className="container flex flex-col md:flex-row py-14 gap-10 ">
           {cardContent.map((item, index) => (
             <motion.div
               variants={{
