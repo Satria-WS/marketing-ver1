@@ -6,7 +6,7 @@ const Service = () => {
 
   return (
     <>
-      <div className="container border border-pink-400 ">
+      <div className="container ">
         <h1 className="text-4xl font-bold py-12 xl:max-w-[300px]">
           Classes to Spark Your
           <span className="text-gray-400 underline pl-5">Creativity</span>
