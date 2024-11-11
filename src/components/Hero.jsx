@@ -4,7 +4,7 @@ import logo from "../assets/image/1.png";
 const Hero = () => {
   return (
     <>
-      <div className="container flex flex-col md:flex-row border border-orange-300">
+      <div className="container flex flex-col md:flex-row ">
         {/* Text */}
         <div className="flex flex-col items-center md:items-start justify-center basis-1/2 space-y-5 text-center md:text-left min-h-[300px] md:min-h-[600px]  py-20 px-10 ">
           <motion.h1
