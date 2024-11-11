@@ -21,7 +21,7 @@ const Navbar = () => {
         }}
         initial="initial"
         animate="animate"
-        className="container flex justify-between items-center  border border-orange-300"
+        className="container flex justify-between items-center "
       >
         <div className="flex items-center">
           <img className=" w-full max-w-[70px] " src={logo} alt="mother" />
