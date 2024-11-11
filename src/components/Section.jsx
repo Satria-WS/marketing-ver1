@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Section = () => {
   return (
-    <div className="container border border-blue-500">
+    <div className="container ">
       <div className="flex flex-col items-center md:flex-row  min-h-[500px]">
         {/* image */}
         <motion.div
